@@ -1,6 +1,6 @@
 # Organizer handbook
 
-[Template home](../README.md) · [Live demo](https://kcd-website-demo.cloudnativehu.workers.dev/) · [Feature showcase](https://kcd-website-showcase.cloudnativehu.workers.dev/)
+[Template home](../README.md) · [Live demo](https://kcd-website-demo.mark-sagikazar.workers.dev/) · [Feature showcase](https://kcd-website-showcase.mark-sagikazar.workers.dev/)
 
 ## Setting up a website
 

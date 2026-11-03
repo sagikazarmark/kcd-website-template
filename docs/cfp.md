@@ -27,7 +27,7 @@
 
 The starter homepage already reads `cfp.open` to show the submission button,
 countdown and CFP section. The demo's
-[open CFP](https://kcd-website-demo.cloudnativehu.workers.dev/02-cfp-open/)
+[open CFP](https://kcd-website-demo.mark-sagikazar.workers.dev/02-cfp-open/)
 shows the result.
 
 ## At the deadline

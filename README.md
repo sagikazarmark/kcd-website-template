@@ -4,11 +4,11 @@ Launch your **Kubernetes Community Day** website, then keep it current from the
 first announcement through the final recap. This starter is the fictional
 **KCD Your City 2099**, ready for your event's content and branding.
 
-**[🌍 Live demo](https://kcd-website-demo.cloudnativehu.workers.dev/)** ·
-**[🎨 Feature showcase](https://kcd-website-showcase.cloudnativehu.workers.dev/)** ·
+**[🌍 Live demo](https://kcd-website-demo.mark-sagikazar.workers.dev/)** ·
+**[🎨 Feature showcase](https://kcd-website-showcase.mark-sagikazar.workers.dev/)** ·
 **[🚀 Use this template](https://github.com/sagikazarmark/kcd-website-template/generate)**
 
-[Preview the starter](https://kcd-website-template.cloudnativehu.workers.dev/) or
+[Preview the starter](https://kcd-website-template.mark-sagikazar.workers.dev/) or
 [browse the template repository](https://github.com/sagikazarmark/kcd-website-template).
 
 ## Highlights

@@ -7,7 +7,7 @@ then preserve that edition when next year's website takes over the homepage.
 
 ## Publish a thank-you homepage
 
-Use the [wrap-up demo](https://kcd-website-demo.cloudnativehu.workers.dev/10-wrap/)
+Use the [wrap-up demo](https://kcd-website-demo.mark-sagikazar.workers.dev/10-wrap/)
 as a starting point:
 
 1. Rewrite `src/index.vto` with a thank-you message and the event's highlights.
@@ -25,7 +25,7 @@ Their `recap.yaml` is site-owned data, without a built-in theme schema.
 
 ## Add photos, recordings and slides
 
-The [photos example](https://kcd-website-demo.cloudnativehu.workers.dev/11-photos/)
+The [photos example](https://kcd-website-demo.mark-sagikazar.workers.dev/11-photos/)
 adds a preview gallery and full-album link. Each `comp.gallery` image needs `src`,
 descriptive `alt`, `width` and `height`; optional `full` links to a larger image.
 Use a unique gallery `id` per page. Add credits and an album link in the page.
@@ -38,7 +38,7 @@ label and `resource: { url?, note?, enabled? }`:
 - `note`: explain partial availability, such as “More recordings next week.”
 - `enabled: false`: hide the card.
 
-Follow the [complete recap](https://kcd-website-demo.cloudnativehu.workers.dev/12-recap/)
+Follow the [complete recap](https://kcd-website-demo.mark-sagikazar.workers.dev/12-recap/)
 for a film, recordings, slides and an optional transparency report. Replace its
 sample illustrations, KCD Budapest links and fictional figures with your own.
 Check the resources, build and deploy after each update.

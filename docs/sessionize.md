@@ -43,7 +43,7 @@ ready. Keep `src/agenda.vto` as a draft until the timetable is ready.
 
 Speaker listings are derived from talks: make sure the imported programme
 includes the accepted sessions and their speaker IDs. Review the
-[speakers example](https://kcd-website-demo.cloudnativehu.workers.dev/07-speakers/).
+[speakers example](https://kcd-website-demo.mark-sagikazar.workers.dev/07-speakers/).
 The homepage's keynote cards are separate content in `keynotes.yaml`.
 
 ## Publish the agenda

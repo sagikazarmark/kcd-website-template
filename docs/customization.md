@@ -84,9 +84,9 @@ remaining page uses.
 - `layouts/site.vto`: common shell with a custom `{{ slot header }}`. Use it for
   a menu bar followed by a smaller banner.
 
-Compare [big hero](https://kcd-website-showcase.cloudnativehu.workers.dev/home/big-hero/),
-[banner](https://kcd-website-showcase.cloudnativehu.workers.dev/home/banner/) and
-[plain](https://kcd-website-showcase.cloudnativehu.workers.dev/home/plain/) examples.
+Compare [big hero](https://kcd-website-showcase.mark-sagikazar.workers.dev/home/big-hero/),
+[banner](https://kcd-website-showcase.mark-sagikazar.workers.dev/home/banner/) and
+[plain](https://kcd-website-showcase.mark-sagikazar.workers.dev/home/plain/) examples.
 Adapt their layout and header while keeping your own content sections.
 
 ## Colors and images

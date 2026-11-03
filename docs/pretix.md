@@ -37,8 +37,8 @@ include both there too. No Pretix API key is needed for this public widget.
 
 ## Early bird, regular tickets and sold out
 
-Use the [early-bird](https://kcd-website-demo.cloudnativehu.workers.dev/06-early-bird/)
-and [regular-ticket](https://kcd-website-demo.cloudnativehu.workers.dev/08-tickets/)
+Use the [early-bird](https://kcd-website-demo.mark-sagikazar.workers.dev/06-early-bird/)
+and [regular-ticket](https://kcd-website-demo.mark-sagikazar.workers.dev/08-tickets/)
 examples for copy and countdown placement. The starter has no global ticket-price
 or sale-status switch: update page wording and any countdown when the offer changes.
 

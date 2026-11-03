@@ -7,24 +7,24 @@ goes live; there is no single event-status setting to change.
 
 ## Find your next update
 
-The [live demo](https://kcd-website-demo.cloudnativehu.workers.dev/) shows a complete
+The [live demo](https://kcd-website-demo.mark-sagikazar.workers.dev/) shows a complete
 fictional event at each milestone. Use its bottom navigation to compare versions.
 The order is an example: sponsorship, ticket sales and speaker announcements can
 happen in whatever order fits your event.
 
 | Milestone | What to update | Example |
 | --- | --- | --- |
-| Announce the event | Identity, venue, team, homepage and social links. See [setup](setup.md). | [Announcement](https://kcd-website-demo.cloudnativehu.workers.dev/01-announced/) |
-| Open the CFP | Submission URL, deadline, FAQ, menu and homepage. See [CFP](cfp.md). | [CFP open](https://kcd-website-demo.cloudnativehu.workers.dev/02-cfp-open/) |
-| Invite sponsors | Packages, prospectus, contact details; publish `sponsors.vto`. | [Sponsorship](https://kcd-website-demo.cloudnativehu.workers.dev/03-sponsorship/) |
-| Welcome sponsors | Logos and tiers in `sponsors.yaml`. | [Sponsors](https://kcd-website-demo.cloudnativehu.workers.dev/04-sponsors/) |
-| Announce keynotes | Cards in `keynotes.yaml`, portraits and homepage copy. | [Keynotes](https://kcd-website-demo.cloudnativehu.workers.dev/05-keynotes/) |
-| Open early-bird sales | Shop, ticket page, attending image and pricing copy. See [Pretix](pretix.md). | [Early bird](https://kcd-website-demo.cloudnativehu.workers.dev/06-early-bird/) |
-| Reveal speakers | Import speaker/talk data, publish `speakers.vto`. See [Sessionize](sessionize.md). | [Speakers](https://kcd-website-demo.cloudnativehu.workers.dev/07-speakers/) |
-| Switch to regular tickets | Update Pretix prices and your homepage/ticket wording. | [Tickets](https://kcd-website-demo.cloudnativehu.workers.dev/08-tickets/) |
-| Publish the timetable | Import scheduled talks, verify times/rooms, publish `agenda.vto`. | [Agenda](https://kcd-website-demo.cloudnativehu.workers.dev/09-agenda/) |
-| Thank attendees | Retire sales calls to action and publish a thank-you homepage. | [Wrap-up](https://kcd-website-demo.cloudnativehu.workers.dev/10-wrap/) |
-| Share photos and resources | Publish the gallery, recordings, slides and recap as they arrive. See [after the event](after-the-event.md). | [Photos](https://kcd-website-demo.cloudnativehu.workers.dev/11-photos/) / [Recap](https://kcd-website-demo.cloudnativehu.workers.dev/12-recap/) |
+| Announce the event | Identity, venue, team, homepage and social links. See [setup](setup.md). | [Announcement](https://kcd-website-demo.mark-sagikazar.workers.dev/01-announced/) |
+| Open the CFP | Submission URL, deadline, FAQ, menu and homepage. See [CFP](cfp.md). | [CFP open](https://kcd-website-demo.mark-sagikazar.workers.dev/02-cfp-open/) |
+| Invite sponsors | Packages, prospectus, contact details; publish `sponsors.vto`. | [Sponsorship](https://kcd-website-demo.mark-sagikazar.workers.dev/03-sponsorship/) |
+| Welcome sponsors | Logos and tiers in `sponsors.yaml`. | [Sponsors](https://kcd-website-demo.mark-sagikazar.workers.dev/04-sponsors/) |
+| Announce keynotes | Cards in `keynotes.yaml`, portraits and homepage copy. | [Keynotes](https://kcd-website-demo.mark-sagikazar.workers.dev/05-keynotes/) |
+| Open early-bird sales | Shop, ticket page, attending image and pricing copy. See [Pretix](pretix.md). | [Early bird](https://kcd-website-demo.mark-sagikazar.workers.dev/06-early-bird/) |
+| Reveal speakers | Import speaker/talk data, publish `speakers.vto`. See [Sessionize](sessionize.md). | [Speakers](https://kcd-website-demo.mark-sagikazar.workers.dev/07-speakers/) |
+| Switch to regular tickets | Update Pretix prices and your homepage/ticket wording. | [Tickets](https://kcd-website-demo.mark-sagikazar.workers.dev/08-tickets/) |
+| Publish the timetable | Import scheduled talks, verify times/rooms, publish `agenda.vto`. | [Agenda](https://kcd-website-demo.mark-sagikazar.workers.dev/09-agenda/) |
+| Thank attendees | Retire sales calls to action and publish a thank-you homepage. | [Wrap-up](https://kcd-website-demo.mark-sagikazar.workers.dev/10-wrap/) |
+| Share photos and resources | Publish the gallery, recordings, slides and recap as they arrive. See [after the event](after-the-event.md). | [Photos](https://kcd-website-demo.mark-sagikazar.workers.dev/11-photos/) / [Recap](https://kcd-website-demo.mark-sagikazar.workers.dev/12-recap/) |
 | Launch the next edition | Preserve the finished site at `/year/`, put the new edition at `/`. | [Archive guide](after-the-event.md#archive-the-finished-edition-at-year) |
 
 ## The publishing workflow
@@ -79,4 +79,4 @@ Compare neighboring `src/` directories, then adapt only the files and sections
 you need. Keep your own config, assets and event facts.
 
 For layouts rather than event content, use the
-[feature showcase](https://kcd-website-showcase.cloudnativehu.workers.dev/).
+[feature showcase](https://kcd-website-showcase.mark-sagikazar.workers.dev/).
