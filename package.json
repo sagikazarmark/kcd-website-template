@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "DENO_NO_PACKAGE_JSON=1 deno task build",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler preview"
+  },
+  "devDependencies": {
+    "deno": "^2.9",
+    "wrangler": "^4"
+  },
+  "allowScripts": {
+    "deno": true,
+    "esbuild": true,
+    "workerd": true
+  }
+}
