@@ -20,13 +20,13 @@ code is needed.
    | --- | --- |
    | Production branch | `main` (or your chosen publishing branch) |
    | Root directory | Repository root |
-   | Build command | `npx -y -p deno@2.8.3 -c 'deno task build'` |
-   | Deploy command | `npx wrangler deploy` |
-   | Preview command | `npx wrangler preview` |
+   | Build command | `npm run build` |
+   | Deploy command | `npm run deploy` |
+   | Preview command | `npm run preview` |
 
-   Cloudflare's build image has Node/npm. The build command makes the pinned
-   Deno binary available to the task and its child commands. Enter it explicitly:
-   this Deno project has no `package.json` build script for Cloudflare to detect.
+   Cloudflare's build image has Node/npm and installs the dependencies in
+   `package.json` (Deno and Wrangler) before building. The `npm run` scripts
+   there run `deno task build`, `wrangler deploy` and `wrangler preview`.
 
 5. Deploy and open the resulting `https://<worker>.<account>.workers.dev/` URL.
 6. Put that URL in `_config.ts`'s `location` (or use your custom domain below),
@@ -63,7 +63,7 @@ To start by cloning and deploying the starter instead:
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/sagikazarmark/kcd-website-template)
 
-Set the Deno build command from the table during setup, then clone the repository
+Set the build command from the table during setup, then clone the repository
 Cloudflare creates and follow the [setup guide](setup.md) to personalize it.
 This route initially publishes the fictional starter content.
 
@@ -77,12 +77,13 @@ repository URL in this snippet:
 
 ## Manual deployment
 
-With Deno and Node/npm installed, run from your website repository:
+With Node/npm installed, run from your website repository:
 
 ```sh
-deno task build
+npm install
+npm run build
 npx wrangler login
-npx wrangler deploy
+npm run deploy
 ```
 
 For ongoing updates, connecting Git avoids needing to run these commands each time.
@@ -91,7 +92,7 @@ For ongoing updates, connecting Git avoids needing to run these commands each ti
 
 | Symptom | Check |
 | --- | --- |
-| `deno` not found | Use the full npm-based build command above. |
+| `deno` not found | Use `npm run build` as the build command, so the `deno` npm package from `package.json` is used. |
 | Cannot resolve `kcd-theme/` | An independent repo needs a published URL in `deno.json`; see [theme pinning](customization.md#pinning-and-upgrading-the-theme). |
 | `_site` missing | Set a build command and the correct root directory. |
 | Missing data or invalid key | Fix the named file in `src/_data/`, then build locally. |
